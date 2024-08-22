@@ -1,0 +1,55 @@
+<html>
+    <title>Grid page</title>
+    <head></head>
+    <style>
+        .parent{
+            display:grid;
+            grid-template-columns: 11% 11% 11%;
+            grid-template-rows: 300px 300px 300px;
+            gap:30px;
+        .child{
+            border:1px solid black;
+            font-size: xx-large;
+            color:rgb(237, 237, 241);
+            text-align: center;
+        }
+        .c1{
+            background-image: url("download422.jpeg");
+            background-size: cover;
+        }
+        .c2{
+            background-image: url("download555.jpeg");
+            background-size: cover;
+        }
+        .c3{
+            background-image: url("images (1).jpeg");
+            background-size: cover;
+        }
+        .c4{
+            background-image: url("download877.jpeg");
+            background-size: cover;
+        }
+        .c5{
+            background-image: url("download987.jpeg");
+            background-size: cover;
+        }
+        .c6{
+            background-image: url("images.jpeg");
+            background-size: cover;
+        }
+        .child:hover{
+            box-shadow: 0px 0px 5px 5px grey;
+        }
+    </style>
+    <body>
+        <h1>Grid Page</h1>
+        <div class="parent">
+            <div class="child c1">Price: Rs.2Lakh</div>
+            <div class="child c2">Price: Rs.20lakh</div>
+            <div class="child c3">Price: Rs.3lakh</div>
+            <div class="child c4">Price: Rs.4lakh</div>
+            <div class="child c5">Price: Rs.8lakh</div>
+            <div class="child c6">Price: Rs.7lakh</div>
+        </div>
+    </body>
+</html>
